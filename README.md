@@ -11,3 +11,4 @@ This is my first website. It's important because it includes HTML, CSS and JS - 
 ## Usage
 1. In VS code, open the out folder (see installation)
 2. Open the website itself by opening index.html in your browser
+![image](https://user-images.githubusercontent.com/121323170/216491367-0d9f2069-1d64-40d4-8f09-ad92eab57067.png)
