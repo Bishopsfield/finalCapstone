@@ -1,0 +1,154 @@
+/* Calculations based on external size inc. margins and padding */
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:royalblue;
+}
+
+.flex-left {
+  background-color:cadetblue;
+  padding: 10px;
+  flex:20%;
+}
+
+.flex-right {
+  background-color:cornflowerblue;
+  padding: 10px;
+  flex:80%;
+}
+
+/* One column on narrow screens */
+@media (max-width: 800px) {
+  .flex-left, .flex-right {
+    flex: 100%;
+  }
+}
+
+/* body styles apply to whole page (unless cascaded) */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:1.5em;
+  background-color:skyblue;
+  color:midnightblue;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* styles common to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  color:darkslateblue;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/* Centre, downsize images as necessary */
+img.responsive {
+  display: block;
+  width: 100%;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/* bottom nav bar */
+nav.bottom {
+  /* centred */
+  text-align: left;
+  list-style-type: none;
+  border-style: none;
+  padding: 3px;
+}
+
+/* display navbar items (each is a list element) horizontally, with spacing */
+nav.bottom.li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 5px;
+}
+
+/* left nav bar */
+nav.left {
+  /* centred */
+  text-align: left;
+  list-style-type: none;
+  border-style: none;
+  padding: 3px;
+}
+
+/* display navbar items (each is a list element) horizontally, with spacing */
+nav.left.li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 5px;
+}
+
+
+
+blockquote {
+  display: block;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* table */
+table, th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* table data cells */
+td.centre {
+  text-align: center;
+}
+
+#name, #email, .submitButton {
+  width: 100%;
+  font-size: 1em;
+}
+
+.linkit {
+  font-size: small;
+  color:black;
+  background-color: white;
+  padding: 2px;
+}
+
+input[type=text], select {
+  width: 100%;
+  font-size: medium;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 10%;
+  background-color:darkblue ;
+  color:white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
