@@ -1,7 +1,13 @@
 # finalCapstone
 Final capstone project
 ## Description
-This is my first website. It's important because it includes HTML, CSS and JS - three of the key disciplines I've been studying with Hyperiondev. The website concerns the Strategic Bombing Offensive carried out by the Allied powers against Germany in World War II.
+This is my first website. It's important because it includes HTML, CSS and JS - three of the key disciplines I've been studying with Hyperiondev. Key learnings employed are:
+* CSS, including:
+  *  DIV and SPAN
+  *  Manipulation through JS
+* Event listeners and callback functions
+* URL manipulation for images in the 'save for later' page
+* Use of local storage to allow object persistence
 ## Contents
 1. Installation
 1. Usage
